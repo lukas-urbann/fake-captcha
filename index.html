@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CloudShare Verification</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="css/all.css" rel="stylesheet">
+        <link rel="icon" href="favicon.png" type="image/svg+xml">
+    </head>
+    <body>
+        <audio id="login">
+            <source src="login.mp3" type="audio/mpeg">
+        </audio>
+        <div id="overlay"></div>
+        <nav>
+            <i class="fas fa-cloud-upload-alt"></i>&nbsp;<span style="cursor: pointer;">CLOUDSHARE</span>
+        </nav>
+        <div class="box">
+            <h1><i class="fas fa-exclamation-triangle" style="color: orange;position:absolute;transform: translate(-100px,12px);"></i>WAIT!</h1>
+            <p>We need to verify that you aren't a robot.<br>To proceed, simply complete our easy recaptcha verification method to proceed further.</p>
+            <button id="x_81ver" class="verification-button" onclick="verify()">
+                I'M NOT A ROBOT
+            </button>
+            <div id="w12_xx" class="wait-dialogue" style="display: none;">
+                <div class="loader">
+                    <img alt="loader" src="loader.gif" draggable="false" class="loader"/>
+                </div>
+                <p><b>Verifying.</b> Please, wait for your redirection.</p>
+            </div>
+            <p class="subtext">&copy;2021 CLOUDSHARE Team a.s.</p>
+        </div>
+        <footer>
+            <p>CLOUDSHARE Team a.s.</p><p style="float: right; text-decoration: underline;">Terms of services</p>
+        </footer>
+    </body>
+    <script type="text/javascript" src="verification.js"></script>
+</html>

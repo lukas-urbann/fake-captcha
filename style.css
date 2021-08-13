@@ -1,0 +1,126 @@
+/*Fuck scammers*/
+
+html, body {
+    font-family: 'Oxygen', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    background-color: rgb(204, 220, 247);
+    overflow: hidden;
+}
+
+nav {
+    background-color: rgb(66, 133, 244);
+    color: white;
+    padding: 18px;
+    font-weight: 300;
+    overflow: hidden;
+    box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.25);
+}
+
+.box {
+    margin-top: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 24px;
+    box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.25);
+    text-align: center;
+    transition: 0.1s;
+    padding: 32px;
+}
+
+.box h1 {
+    font-size: 64px;
+}
+
+.box .subtext {
+    font-size: 11px;
+    color:rgb(198, 199, 201);
+}
+
+.verification-button {
+    background-color: rgb(66, 133, 244);
+    border-radius: 4px;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    max-width: 212px;
+    text-align: center;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 64px;
+    transition: 0.1s;
+    text-decoration: none;
+    border: none;
+    margin-bottom: 128px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.verification-button:hover {
+    background-color: rgb(62, 112, 194);
+}
+
+.wait-dialogue {
+    color: rgb(66, 133, 244);
+    margin-bottom: 128px;
+}
+
+.wait-dialogue p {
+    text-align: center;
+}
+
+.loader {
+    max-width: 128px;
+    max-height: 128px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: rgb(66, 133, 244);
+    color: rgb(112, 165, 250);
+    padding: 4px;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("face.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+    cursor: none;
+  }
